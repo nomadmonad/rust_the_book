@@ -62,7 +62,7 @@ pub fn order_appetizer() {
     let order2 = back_of_house::Appetizer::Soup;
 }
 
-use crate::front_of_house::hosting;
+use self::front_of_house::hosting;
 
 pub fn come_to_restaurant() {
     hosting::add_to_waitlist();
